@@ -7,7 +7,7 @@ justify-content:center;
 }
 .box{
   margin-top: 100px;
-  background-color:#4f8fee ;
+  background: linear-gradient(to top, rgb(2, 20, 19) , rgb(6, 88, 64) );
  height: 470px;
   width: 345px;
   text-align: center;
@@ -39,9 +39,15 @@ font-size: medium;
   margin-top: 20px;
   border-radius: 10px;
   background-color: aquamarine;
-  border-color:  green;
+  border-color:  rgb(6, 17, 6);
   
 }
+
+.inputField:hover{
+  box-shadow: 0 0 50px 0px rgba(243, 227, 4, 1);
+}
+
+
 .info { 
   color: black;
 }
@@ -59,11 +65,6 @@ font-size: medium;
   font-size: 20px;
   padding: 10px;
 }
-
-
-
-
-
 
 
 @media  (max-width:370px) {
